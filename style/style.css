@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Simpsons";
+  src: url(../font/Homer_Simpson.ttf) format("truetype");
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -5,4 +9,29 @@
   justify-content: center;
   min-height: 100vh;
   background-color: #1FC7FF;
+}
+.container .logo {
+  max-width: 40%;
+}
+.container .quote {
+  font-family: "Simpsons", Comic Sans MS;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+}
+.container .quote__text {
+  color: #F8DB27;
+  text-shadow: 1px 1px #000;
+  font-size: 4em;
+  text-align: center;
+}
+.container .quote__info {
+  text-align: right;
+  color: #F8DB27;
+  text-shadow: 1px 1px #000;
+  font-size: 2.5em;
+}
+.container .quote .character-img {
+  max-width: 25%;
+  margin-left: 24px;
 }/*# sourceMappingURL=style.css.map */

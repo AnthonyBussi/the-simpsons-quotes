@@ -14,4 +14,5 @@ fetch('https://thesimpsonsquoteapi.glitch.me/quotes')
         quoteText.innerHTML = quote.quote;
         quoteAuthor.innerHTML = quote.character;
         characterImg.src = quote.image;
+        characterImg.alt = quote.character;
     });
