@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 let container = document.querySelector(".container");
 let quoteText = document.querySelector(".quote__text");

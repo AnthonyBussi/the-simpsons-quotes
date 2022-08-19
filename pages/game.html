@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Simpsons</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     <div class="container">
-        <a href="pages/game.html">Jeux</a>
-        <img src="assets/logo.png" alt="The Simpsons logo" class="logo">
+        <a href="../index.html">Accueil</a>
+        <img src="../assets/logo.png" alt="The Simpsons logo" class="logo">
         <div class="quote">
             <figure>
                 <blockquote>
@@ -21,8 +21,13 @@
             </figure>
             <img src="" alt="" class="character-img">
         </div>
+        <div class="button__container">
+            <button type="button" class="button1" onclick=checkAnswer()>
+            <button type="button" class="button2" onclick=checkAnswer()>
+            <button type="button" class="button3" onclick=checkAnswer()>
+        </div>
     </div>
-    
-    <script src="script/index.js"></script>
+
+    <script src="../script/game.js"></script>
 </body>
 </html>
